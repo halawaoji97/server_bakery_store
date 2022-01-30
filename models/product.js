@@ -14,7 +14,7 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  img: {
+  imageUrl: {
     type: String,
     required: true,
   },
@@ -23,10 +23,6 @@ const ProductSchema = new mongoose.Schema({
   },
   weight: {
     type: String,
-  },
-  price: {
-    type: Number,
-    required: true,
   },
   inStock: {
     type: Boolean,
